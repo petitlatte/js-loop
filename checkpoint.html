@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	<h1>Fruits</h1>
+
+	<ul>
+		<li class="list">Apple</li>
+		<li class="list">Banana</li>
+		<li class="list">Orange</li>
+		<li class="list">Kiwifruit</li>
+		<li class="list">Strawberry</li>
+	</ul>
+
+
+
+	<script>
+
+//Variable
+
+	var all = document.getElementsByClassName("list")
+
+//CSS
+
+	for(var i=0, max=all.length; i<max; i++){
+		all[i].style.color="red";
+		all[i].style.fontFamily="helvetica";
+		all[i].style.fontSize="50px";
+		all[0].style.fontSize="100px";
+		all[1].style.color="yellow";
+		all[2].style.color="orange";
+		all[3].style.color="green";
+}
+
+console.log(all)
+
+	</script>
+	
+</body>
+</html>
